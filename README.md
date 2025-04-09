@@ -27,3 +27,5 @@ Após executar esse comando, aparecerá um QRcode, que deve ser lido no aplicati
 Obs: É necessário ter instalado o Node.js no computador.
 
 Para mais informações das mudanças que eu fiz acesse esse link: https://youtu.be/pD5_SA727XA
+
+Atualização 09/04: Consertei alguns pequenos erros na estrutura de condição da classificação, mas o vídeo ainda explica bem a aplicação.
