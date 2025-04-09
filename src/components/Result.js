@@ -5,7 +5,7 @@ const Result = ({ imc, altura}) => { // Exibe os resultados do cálculo
     const classificação = () => { // Classificação dos resultados dos IMCs calculados
         if (imc < 18.5) return 'Abaixo do peso';
         if (imc < 24.9) return 'Peso normal';
-        if (imc < 19.9) return 'Sobrepeso';
+        if (imc < 29.9) return 'Sobrepeso';
         if (imc < 34.9) return 'Obesidade grau 1';
         if (imc < 39.9) return 'Obesidade grau 2';
         return 'Obesidade grau 3 (mórbida)';
@@ -13,7 +13,7 @@ const Result = ({ imc, altura}) => { // Exibe os resultados do cálculo
 
     // Calcula o PIm e o PIM
     const PIm = (18.5 * altura * altura).toFixed(2); // PIm = Peso Ideal Minimo
-    const PIM = (24.95 * altura * altura).toFixed(2); // PIM = Peso Ideal Máximo
+    const PIM = (24.9 * altura * altura).toFixed(2); // PIM = Peso Ideal Máximo
 
     return ( // Exibe as entradas e resultados para o usuário
         <View style={styles.resultContainer}>
