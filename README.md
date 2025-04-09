@@ -8,8 +8,12 @@ As tecnologias usadas foram:
 Para clonar o repositório será necessário o seguinte comando:
 
 	git clone https://github.com/Pyetro7007/PAM_CalculadoraIMC.git 
+ 
+Após clonar, será necessário acessar a pasta PAM_CalculadoraIMC com o comando:
 
-Após clonar, você deve instalar o node_modules e o package-lock.json usando o comando:
+ 	cd PAM_CalculadoraIMC
+
+Após acessar, você deve instalar o node_modules e o package-lock.json usando o comando:
 
 	npm install
 
