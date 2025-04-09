@@ -13,10 +13,6 @@ Após clonar, você deve instalar o node_modules e o package-lock.json usando o 
 
 	npm install
 
- ou
-
- 	npm install i
-
  Para executar o aplicativo, será necessário esse comando:
  
 	npx expo start --tunnel
